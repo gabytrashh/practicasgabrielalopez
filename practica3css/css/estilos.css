@@ -1,8 +1,12 @@
-body{
-background-image: url(../img/hartcat.png);
-background-size: 500px;
-background-repeat: no-repeat;
-background-position: top-right;
+Body{
+    background-image: url(../img/plumas.jpg);
+    background-size: 200px;
+    background-repeat: repeat;
+    
+}
 
-
+p{
+    margin-right: 500px;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255, 0.5);
 }
