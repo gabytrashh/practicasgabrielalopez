@@ -1,0 +1,61 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #385785;
+}
+
+.reproductor {
+width: 300px;
+margin: 50px auto;
+background-color: rgb(224, 80, 176);
+padding: 20px;
+border-radius: 15px;
+box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.album-art {
+position: relative; /* "Encierra" a los elementos absolutos dentro */
+width: 200px;
+height: 200px;
+margin: 0 auto;
+}
+.album-art img {
+width: 100%;
+border-radius: 10px;
+}
+
+.badge-vivo {
+position: absolute;
+top: 10px; /* Se ancla a 10px del borde superior del padre */
+right: 10px; /* Se ancla a 10px del borde derecho del padre */
+background-color: #ff0000;
+color: white;
+padding: 5px 10px;
+font-size: 12px;
+font-weight: bold;
+border-radius: 5px;
+z-index: 10; /* Asegura que esté por encima de la imagen */
+}
+
+.heart-icon {
+position: relative;
+top: -5px; /* Sube 5px de su posición original sin mover lo demás */
+left: 5px; /* Se mueve a la derecha */
+cursor: pointer;
+font-size: 20px;
+display: inline-block;
+}
+.info-cancion {
+text-align: center;
+margin-top: 15px;
+}
+
+.player-bar-fixed button {
+background-color: white;
+border: none;
+padding: 10px 20px;
+border-radius: 20px;
+font-weight: bold;
+cursor: pointer;
+}
