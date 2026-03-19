@@ -15,7 +15,7 @@ box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 .album-art {
-position: relative; /* "Encierra" a los elementos absolutos dentro */
+position: relative; 
 width: 200px;
 height: 200px;
 margin: 0 auto;
@@ -27,21 +27,21 @@ border-radius: 10px;
 
 .badge-vivo {
 position: absolute;
-top: 10px; /* Se ancla a 10px del borde superior del padre */
-right: 10px; /* Se ancla a 10px del borde derecho del padre */
+top: 10px; 
+right: 10px; 
 background-color: #ff0000;
 color: white;
 padding: 5px 10px;
 font-size: 12px;
 font-weight: bold;
 border-radius: 5px;
-z-index: 10; /* Asegura que esté por encima de la imagen */
+z-index: 10; 
 }
 
 .heart-icon {
 position: relative;
-top: -5px; /* Sube 5px de su posición original sin mover lo demás */
-left: 5px; /* Se mueve a la derecha */
+top: -5px; 
+left: 5px; 
 cursor: pointer;
 font-size: 20px;
 display: inline-block;
