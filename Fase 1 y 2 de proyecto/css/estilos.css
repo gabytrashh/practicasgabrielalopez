@@ -52,18 +52,21 @@ transition: 0.3s;
 }
 
 main {
-width: 85%;
-max-width: 1200px;
-margin: auto; 
+  width: 80%;        
+  max-width: 900px;  
+  margin: 0 auto;    
 }
 
 section {
-margin: 40px 0; 
+margin: 30px auto; 
 padding: 20px;
+ width: 100%;
 background-color: #ffffffd5;
 border-radius: 10px;
 box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
+
+ 
 
 #s1, #s2, #s3, #s4, #s5 {
 margin-bottom: 15px;
